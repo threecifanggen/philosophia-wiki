@@ -77,7 +77,7 @@ html_static_path = ['_static']
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
-    '.md': 'markdown',
+    '.myst.md': 'markdown',
 }
 
 myst_enable_extensions = [
@@ -114,3 +114,8 @@ comments_config = {
 
 html_search_language = 'zh'
 html_show_sourcelink = False
+
+myst_html_meta = {
+    "description lang=zh_CN": "黄宝臣(AKA 3GEE)的哲学百科（宗教和科学）",
+    "keywords": "3GEE, threecifanggen, 黄宝臣, 3gee, 哲学, 宗教, 科学",
+}
