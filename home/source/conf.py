@@ -34,7 +34,7 @@ extensions = [
     'myst_parser',
     'nbsphinx',
     "sphinx.ext.graphviz",
-    'sphinxcontrib.kroki',
+    # 'sphinxcontrib.kroki',
     'sphinxcontrib.googleanalytics',
     "sphinx_comments",
 ]
@@ -65,7 +65,8 @@ html_theme = 'sphinx_book_theme'
 html_theme_options = {
     'repository_url' : 'https://github.com/threecifanggen/philosophia-wiki',
     "use_repository_button": True,
-    "show_navbar_depth": 3
+    "show_navbar_depth": 1,
+    # 'extra_scripts': ['_static/test.js']
 }
 
 
@@ -119,3 +120,7 @@ myst_html_meta = {
     "description lang=zh_CN": "黄宝臣(AKA 3GEE)的哲学百科（宗教和科学）",
     "keywords": "3GEE, threecifanggen, 黄宝臣, 3gee, 哲学, 宗教, 科学",
 }
+
+html_favicon = 'logo/3gee-logo.ico'
+html_logo = "logo/3gee-logo-circle.png"
+html_title = "3GEE哲学百科"
