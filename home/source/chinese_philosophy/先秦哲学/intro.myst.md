@@ -1,6 +1,9 @@
 # 先秦哲学
 
 
+## 先秦哲学基本历史
+
+
 ```{graphviz}
 digraph philosophy_before_qin {
     node [shape=box]
