@@ -2,5 +2,6 @@
 
 ```{toctree}
 
-death/intro.md
+mind/intro
+death/intro
 ```

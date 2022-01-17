@@ -36,6 +36,7 @@ extensions = [
     "sphinx.ext.graphviz",
     # 'sphinxcontrib.kroki',
     'sphinxcontrib.googleanalytics',
+    'sphinxcontrib.plantuml',
     "sphinx_comments",
 ]
 
