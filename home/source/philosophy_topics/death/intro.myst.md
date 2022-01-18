@@ -6,4 +6,5 @@ maxdepth: 1
 ---
 
 ../mind/ASC/intro
+伊壁鸠鲁
 ```
