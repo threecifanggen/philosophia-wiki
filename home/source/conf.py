@@ -63,10 +63,44 @@ exclude_patterns = []
 #
 html_theme = 'sphinx_book_theme'
 
+footer_html = """\
+<div class="container" id="footer-nav">
+<div class="row">
+<div class="col">
+    <p style="text-align: center"><b>主站其他内容</b></p>
+    <ul style="list-style-type: none; text-align: center; padding: 0;">
+    <li><a href="https://blog.3gee.me/">我的博客<a></li>
+    <li><a href="https://workwiki.3gee.me/">工作(DS/CS)百科<a></li>
+    <li><a href="https://philosophia.3gee.me/">哲学百科<a></li>
+    <li><a href="https://medicine.3gee.me/">医学百科<a></li>
+    </ul>
+</div>
+<div class="col">
+    <p style="text-align: center"><b>社交网络</b></p>
+    <ul style="list-style-type: none; text-align: center; padding: 0;">
+    <li><a href="https://www.zhihu.com/people/huang-bao-chen">知乎<a></li>
+    <li><a href="https://stackoverflow.com/users/5387442/huang-baochen">StackOverflow<a></li>
+    <li><a href="https://segmentfault.com/u/sancifanggen">SegmentFault<a></li>
+    <li><a href="https://github.com/threecifanggen">GitHub<a></li>
+    <ul>
+</div>
+<div class="col">
+    <p style="text-align: center"><b>联系我</b></p>
+    <ul style="list-style-type: none; text-align: center; padding: 0;">
+    <li><a href="mailto:cube.root.huang+job@gmail.com">招聘<a></li>
+    <li><a href="mailto:cube.root.huang+ask@gmail.com">社区求助(任何领域)<a></li>
+    <ul>
+</div>
+</div></div>
+"""
+
 html_theme_options = {
     'repository_url' : 'https://github.com/threecifanggen/philosophia-wiki',
     "use_repository_button": True,
     "show_navbar_depth": 1,
+    "use_fullscreen_button": True,
+    "extra_footer": footer_html,
+    "extra_navbar": '<p><b><a href="https://3gee.me">主站点</a></b><br/><b><a href="#footer-nav">页末导航</a></b></p>',
     # 'extra_scripts': ['_static/test.js']
 }
 
