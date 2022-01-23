@@ -6,5 +6,6 @@ maxdepth: 1
 ---
 
 NDE/intro
+ECE/intro
 meditation/intro
 ```

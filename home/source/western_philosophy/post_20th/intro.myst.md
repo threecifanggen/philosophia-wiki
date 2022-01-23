@@ -73,5 +73,5 @@ maxdepth: 1
 maxdepth: 1
 ---
 
-德勒兹
+德勒兹/intro
 ```
