@@ -14,11 +14,11 @@
 +============================================+==============================================================+=====================================================+============================================+
 | :doc:`西方哲学 <western_philosophy/intro>` | :doc:`希腊哲学 <western_philosophy/greek_philosophy/intro>`  | :doc:`基督教 <western_philosophy/christian/intro>`  | :doc:`科学史 <science/history/intro>`      |
 |                                            |                                                              |                                                     |                                            |
-|                                            | :doc:`近代哲学 <western_philosophy/modern_philosophy/intro>` | 伊斯兰教                                            | :doc:`科学哲学 <science/philosophy/intro>` |
+|                                            | :doc:`近代哲学 <western_philosophy/modern_philosophy/intro>` | :doc:`伊斯兰教 <arabic/intro>`                      | :doc:`科学哲学 <science/philosophy/intro>` |
 |                                            |                                                              |                                                     |                                            |
 |                                            | :doc:`20世纪之后 <western_philosophy/post_20th/intro>`       | :doc:`犹太教 <western_philosophy/judaism/intro>`    |                                            |
 +--------------------------------------------+--------------------------------------------------------------+-----------------------------------------------------+--------------------------------------------+
-| :doc:`印度 <indian_philosophy/intro>`      |                                                              | 吠檀多/印度教                                       |                                            |
+| :doc:`印度 <indian_philosophy/intro>`      |                                                              | :doc:`吠檀多/印度教 <indian_philosophy/intro>`      |                                            |
 |                                            |                                                              |                                                     |                                            |
 |                                            |                                                              | :doc:`佛教 <indian_philosophy/buddhism/intro>`      |                                            |
 +--------------------------------------------+--------------------------------------------------------------+-----------------------------------------------------+--------------------------------------------+
